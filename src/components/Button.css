@@ -1,0 +1,36 @@
+body {
+  background: #9ca4b9;
+  background: linear-gradient(to right, #d7dde8, #9ca4b9);
+}
+.Wrap,
+.Slider {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.First-btn {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+}
+.btn-grad {
+  margin: 1px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  transform: scale(1.1);
+  background-position: left center;
+  color: #fff;
+  text-decoration: none;
+}
